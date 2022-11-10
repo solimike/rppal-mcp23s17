@@ -8,7 +8,7 @@
 //! # Example usage
 //!
 //! ```no_run
-//! use mcp23s17::{ChipSelect, HardwareAddress, Level, Mcp23s17, Port, RegisterAddress, SpiBus, SpiMode};
+//! use rppal_mcp23s17::{ChipSelect, HardwareAddress, Level, Mcp23s17, Port, RegisterAddress, SpiBus, SpiMode};
 //!
 //! // Create an instance of the driver for the device with the hardware address
 //! // (A2, A1, A0) of 0b000.
@@ -540,7 +540,7 @@ struct Mcp23s17State {
 /// `Pin::into_*()` methods.
 ///
 /// ```no_run
-/// use mcp23s17::{ChipSelect, HardwareAddress, Level, Mcp23s17, SpiBus, SpiMode, Port, RegisterAddress};
+/// use rppal_mcp23s17::{ChipSelect, HardwareAddress, Level, Mcp23s17, SpiBus, SpiMode, Port, RegisterAddress};
 ///
 /// // Create an instance of the driver for the device with the hardware address
 /// // (A2, A1, A0) of 0b000.
