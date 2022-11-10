@@ -1,0 +1,30 @@
+[package]
+name = "rpal-mcp23s17"
+version = "0.0.1"
+authors = ["Mike Walmsley <mike@rivermix.uk>"]
+description = """MCP23S17 driver
+
+An experimental driver for the MCP23S17 16 bit I/O expander chip
+addressed over the SPI bus on Raspbery Pi peripherals, such as the 
+PiFace Digital HAT. Requires RPPAL for the SPI interface.
+"""
+license = "MIT"
+edition = "2021"
+
+# When using the "mockspi" feature for dev builds the original resolver's desire
+# to merge features between release and test builds is inappropriate, so use the
+# V2 resolver.
+resolver = "2"
+
+[dependencies]
+bitflags = "1.3.2"
+log = "0.4.17"
+rppal = "0.14.0"
+thiserror = "1.0.37"
+
+[features]
+
+# Use of this feature causes the crate to use a mock version of the interface to the 
+# SPI which is suited to running tests without needing the target Raspberry Pi
+# hardware.
+mockspi = []
