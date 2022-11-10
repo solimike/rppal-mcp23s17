@@ -581,7 +581,7 @@ impl Mcp23s17 {
             #[cfg(not(any(test, feature = "mockspi")))]
             spi: Spi::new(spi_bus, chip_select.into(), spi_clock, spi_mode)?,
             #[cfg(any(test, feature = "mockspi"))]
-            spi: MockSpi::new(spi_bus, chip_select.into(), spi_clock, spi_mode),
+            spi: MockSpi::new(spi_bus, chip_select, spi_clock, spi_mode),
             spi_bus,
             address,
             gpioa_pins_taken: [false; 8],
