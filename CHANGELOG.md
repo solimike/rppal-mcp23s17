@@ -9,7 +9,7 @@ formatted messages in the Git commit history.
 
 ### Features
 
-- &quot;MVP&quot; driver for the MCP23S17 I&#x2F;O expander. ([#1](https:&#x2F;&#x2F;github.com&#x2F;solimike&#x2F;rppal-mcp23s17&#x2F;issues&#x2F;1)) ([61d7d99](61d7d99ed066e4c02626ceefb551a75d069094a4))
+- &quot;MVP&quot; driver for the MCP23S17 I&#x2F;O expander. ([#1](https:&#x2F;&#x2F;github.com&#x2F;solimike&#x2F;rppal-mcp23s17&#x2F;issues&#x2F;1)) ([61d7d99](https://github.com/solimike/rppal-mcp23s17/commit/61d7d99ed066e4c02626ceefb551a75d069094a4))
 
   This release includes:
   
