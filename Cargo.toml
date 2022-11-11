@@ -1,7 +1,7 @@
 [package]
-name = "rpal-mcp23s17"
+name = "rppal-mcp23s17"
 version = "0.0.1"
-authors = ["Mike Walmsley <mike@rivermix.uk>"]
+authors = ["Mike Walmsley"]
 description = """MCP23S17 driver
 
 An experimental driver for the MCP23S17 16 bit I/O expander chip
@@ -9,6 +9,11 @@ addressed over the SPI bus on Raspbery Pi peripherals, such as the
 PiFace Digital HAT. Requires RPPAL for the SPI interface.
 """
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/solimike/rppal-mcp23s17/"
+repository = "https://github.com/solimike/rppal-mcp23s17/"
+keywords = ["MCP23S17", "Raspberry", "Raspberry_Pi", "PiFaceDigital", "RPPAL"]
+categories = ["hardware-support", "embedded"]
 edition = "2021"
 
 # When using the "mockspi" feature for dev builds the original resolver's desire
