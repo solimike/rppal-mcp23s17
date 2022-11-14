@@ -10,7 +10,7 @@ PiFace Digital HAT. Requires RPPAL for the SPI interface.
 """
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/solimike/rppal-mcp23s17/"
+homepage = "https://docs.rs/rppal-mcp23s17/"
 repository = "https://github.com/solimike/rppal-mcp23s17/"
 keywords = ["MCP23S17", "Raspberry", "Raspberry_Pi", "PiFaceDigital", "RPPAL"]
 categories = ["hardware-support", "embedded"]
