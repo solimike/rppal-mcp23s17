@@ -3,7 +3,7 @@
 ![Crates.io](https://img.shields.io/crates/v/rppal-mcp23s17)
 ![Crates.io](https://img.shields.io/crates/d/rppal-mcp23s17)
 ![Crates.io](https://img.shields.io/crates/l/rppal-mcp23s17)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/solimike/rppal-mcp23s17/todo)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/solimike/rppal-mcp23s17/CI)
 
 A driver for the MCP23S17 I/O expander which is accessed over an SPI bus. Note that
 this driver depends on [RPPAL](https://docs.golemparts.com/rppal) and is therefore

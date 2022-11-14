@@ -430,7 +430,7 @@ impl OutputPin {
         Ok(OutputPin { pin })
     }
 
-    /// Read the state of the pin.
+    /// Set the state of the pin.
     pub fn write(&self, level: Level) -> Result<()> {
         let gpio = match self.pin.port {
             Port::GpioA => RegisterAddress::GPIOA,
