@@ -58,7 +58,7 @@ dependencies = [
 
 [[package]]
 name = "rppal-mcp23s17"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "bitflags",
  "log",
