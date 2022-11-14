@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 Note that this file is auto-generated from [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
 formatted messages in the Git commit history.
 
+## [0.0.2] - 2022-11-14
+
+[8ec930d](https://github.com/solimike/rppal-mcp23s17/commit/8ec930dea0a93cdf0bfdbee905b2ce8ef381ea68)...[ebeb92c](https://github.com/solimike/rppal-mcp23s17/commit/ebeb92c0712b8144e7cd968222c8e84b35d46c53)
+
+### Documentation
+
+- Basic badges. ([#2](https:&#x2F;&#x2F;github.com&#x2F;solimike&#x2F;rppal-mcp23s17&#x2F;issues&#x2F;2)) ([44d5c59](https://github.com/solimike/rppal-mcp23s17/commit/44d5c598521e825c7d114bf0efc5503195edeccf))
+
+  Add some badges to the README so users get some idea of the status on crates.io etc. Until some CI is set up, 
+  the build badge remains a &quot;TODO&quot;.
+
+### Testing
+
+- Basic CI workflow ([#3](https:&#x2F;&#x2F;github.com&#x2F;solimike&#x2F;rppal-mcp23s17&#x2F;issues&#x2F;3)) ([ebeb92c](https://github.com/solimike/rppal-mcp23s17/commit/ebeb92c0712b8144e7cd968222c8e84b35d46c53))
+
+  CI workflow defined that undertakes a basic sanity check of the repo on every push and PR.
+
 ## [0.0.1] - 2022-11-11
 
 ### Features
