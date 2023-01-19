@@ -5,9 +5,20 @@ All notable changes to this project will be documented in this file.
 Note that this file is auto-generated from [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
 formatted messages in the Git commit history.
 
+## [0.0.3] - 2023-01-19
+
+[fc015e4](https://github.com/solimike/rppal-mcp23s17/commit/fc015e456087ce927de879e31ee9b1b8728240a0)...[45b1c77](https://github.com/solimike/rppal-mcp23s17/commit/45b1c77a37bde969a5306d6022b1bcb3da35ce91)
+
+### Bug Fixes
+
+- Fix build status badges. ([#4](https:&#x2F;&#x2F;github.com&#x2F;solimike&#x2F;rppal-mcp23s17&#x2F;issues&#x2F;4)) ([45b1c77](https://github.com/solimike/rppal-mcp23s17/commit/45b1c77a37bde969a5306d6022b1bcb3da35ce91))
+
+  Build Status badges were broken by a breaking change to the routes. 
+  See https:&#x2F;&#x2F;github.com&#x2F;badges&#x2F;shields&#x2F;issues&#x2F;8671
+
 ## [0.0.2] - 2022-11-14
 
-[8ec930d](https://github.com/solimike/rppal-mcp23s17/commit/8ec930dea0a93cdf0bfdbee905b2ce8ef381ea68)...[ebeb92c](https://github.com/solimike/rppal-mcp23s17/commit/ebeb92c0712b8144e7cd968222c8e84b35d46c53)
+[8ec930d](https://github.com/solimike/rppal-mcp23s17/commit/8ec930dea0a93cdf0bfdbee905b2ce8ef381ea68)...[fc015e4](https://github.com/solimike/rppal-mcp23s17/commit/fc015e456087ce927de879e31ee9b1b8728240a0)
 
 ### Documentation
 
