@@ -216,6 +216,7 @@ impl fmt::Display for RegisterAddress {
 
 bitflags! {
     /// I/O Expander Configuration Register (`IOCON`) bit definitions.
+    #[derive(Debug, PartialEq)]
     pub struct IOCON: u8 {
         /// Controls how the registers are addressed:
         ///
@@ -278,32 +279,32 @@ impl IOCON {
     /// banks. (*Not currently supported in this library.*)
     pub const BANK_ON: IOCON = IOCON::BANK;
     /// The registers are in the same bank (addresses are interleaved sequentially).
-    pub const BANK_OFF: IOCON = IOCON { bits: 0 };
+    pub const BANK_OFF: IOCON = IOCON::empty();
     /// The `INT` pins are internally connected.
     pub const MIRROR_ON: IOCON = IOCON::MIRROR;
     /// The `INT` pins are not connected. `INTA` is associated with `PORTA` and `INTB`
     /// is associated with `PORTB`.
-    pub const MIRROR_OFF: IOCON = IOCON { bits: 0 };
+    pub const MIRROR_OFF: IOCON = IOCON::empty();
     /// Sequential operation enabled, address pointer increments.
-    pub const SEQOP_ON: IOCON = IOCON { bits: 0 };
+    pub const SEQOP_ON: IOCON = IOCON::empty();
     /// Sequential operation disabled, address pointer does not increment.
     pub const SEQOP_OFF: IOCON = IOCON::SEQOP;
     /// Slew rate control enabled.
-    pub const DISSLW_SLEW_RATE_CONTROLLED: IOCON = IOCON { bits: 0 };
+    pub const DISSLW_SLEW_RATE_CONTROLLED: IOCON = IOCON::empty();
     /// Slew rate control disabled.
     pub const DISSLW_SLEW_RATE_MAX: IOCON = IOCON::DISSLW;
     /// Enables the MCP23S17 address pins.
     pub const HAEN_ON: IOCON = IOCON::HAEN;
     /// Disables the MCP23S17 address pins.
-    pub const HAEN_OFF: IOCON = IOCON { bits: 0 };
+    pub const HAEN_OFF: IOCON = IOCON::empty();
     /// Open-drain output (overrides the `INTPOL` bit.)
     pub const ODR_ON: IOCON = IOCON::ODR;
     /// Active driver output (`INTPOL` bit sets the polarity.)
-    pub const ODR_OFF: IOCON = IOCON { bits: 0 };
+    pub const ODR_OFF: IOCON = IOCON::empty();
     /// Active-high.
     pub const INTPOL_HIGH: IOCON = IOCON::INTPOL;
     /// Active-low.
-    pub const INTPOL_LOW: IOCON = IOCON { bits: 0 };
+    pub const INTPOL_LOW: IOCON = IOCON::empty();
 }
 
 /// The MCP23S17 has two GPIO ports, GPIOA and GPIOB.
