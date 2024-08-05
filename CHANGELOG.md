@@ -5,9 +5,19 @@ All notable changes to this project will be documented in this file.
 Note that this file is auto-generated from [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
 formatted messages in the Git commit history.
 
+## [0.0.4] - 2024-08-05
+
+[51b358b](https://github.com/solimike/rppal-mcp23s17/commit/51b358bd07e9166c8b1dadce61e4da9831fb8ad0)...[a7a75a9](https://github.com/solimike/rppal-mcp23s17/commit/a7a75a937151f6833b329df42c43569f006b2cd6)
+
+### Miscellaneous Tasks
+
+- Bump dependencies. ([#6](https:&#x2F;&#x2F;github.com&#x2F;solimike&#x2F;rppal-mcp23s17&#x2F;issues&#x2F;6)) ([a7a75a9](https://github.com/solimike/rppal-mcp23s17/commit/a7a75a937151f6833b329df42c43569f006b2cd6))
+
+  Update bitflags to use new API for empty flags.
+
 ## [0.0.3] - 2023-01-19
 
-[fc015e4](https://github.com/solimike/rppal-mcp23s17/commit/fc015e456087ce927de879e31ee9b1b8728240a0)...[45b1c77](https://github.com/solimike/rppal-mcp23s17/commit/45b1c77a37bde969a5306d6022b1bcb3da35ce91)
+[fc015e4](https://github.com/solimike/rppal-mcp23s17/commit/fc015e456087ce927de879e31ee9b1b8728240a0)...[51b358b](https://github.com/solimike/rppal-mcp23s17/commit/51b358bd07e9166c8b1dadce61e4da9831fb8ad0)
 
 ### Bug Fixes
 

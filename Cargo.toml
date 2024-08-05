@@ -1,6 +1,6 @@
 [package]
 name = "rppal-mcp23s17"
-version = "0.0.3"
+version = "0.0.4"
 authors = ["Mike Walmsley"]
 description = """MCP23S17 driver
 
