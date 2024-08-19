@@ -5,9 +5,26 @@ All notable changes to this project will be documented in this file.
 Note that this file is auto-generated from [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
 formatted messages in the Git commit history.
 
+## [0.1.0] - 2024-08-19
+
+[c7b231e](https://github.com/solimike/rppal-mcp23s17/commit/c7b231e3e6cebeb95952863a0447318170ed8d20)...[62bc40f](https://github.com/solimike/rppal-mcp23s17/commit/62bc40f63480bf8a78ac88cee8f467d3cf75f840)
+
+### Features
+
+- Support Raspberry Pi 5. ([81d38a4](https://github.com/solimike/rppal-mcp23s17/commit/81d38a421623c6d9748ff0cd6f006fdfce53af85))
+
+  Update RPPAL to V0.19 which adds support for Raspberry Pi 5.
+
+- Improved API stability expectations. ([62bc40f](https://github.com/solimike/rppal-mcp23s17/commit/62bc40f63480bf8a78ac88cee8f467d3cf75f840))
+
+  This crate has worked with very few issues
+  for many months. V0.1 recognises
+  the expectation that there will not be many
+  breaking changes in the future.
+
 ## [0.0.4] - 2024-08-05
 
-[51b358b](https://github.com/solimike/rppal-mcp23s17/commit/51b358bd07e9166c8b1dadce61e4da9831fb8ad0)...[a7a75a9](https://github.com/solimike/rppal-mcp23s17/commit/a7a75a937151f6833b329df42c43569f006b2cd6)
+[51b358b](https://github.com/solimike/rppal-mcp23s17/commit/51b358bd07e9166c8b1dadce61e4da9831fb8ad0)...[c7b231e](https://github.com/solimike/rppal-mcp23s17/commit/c7b231e3e6cebeb95952863a0447318170ed8d20)
 
 ### Miscellaneous Tasks
 
