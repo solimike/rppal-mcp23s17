@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 Note that this file is auto-generated from [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
 formatted messages in the Git commit history.
 
+## [0.1.1](https://github.com/solimike/rppal-mcp23s17/compare/v0.1.0...v0.1.1) - 2024-08-21
+
+### Other
+- *(deps)* bump actions/checkout from 3 to 4 ([#9](https://github.com/solimike/rppal-mcp23s17/pull/9))
+- Enable Dependabot scanning of Cargo and GitHub Action dependencies. ([#8](https://github.com/solimike/rppal-mcp23s17/pull/8))
+
 ## [0.1.0] - 2024-08-19
 
 [c7b231e](https://github.com/solimike/rppal-mcp23s17/commit/c7b231e3e6cebeb95952863a0447318170ed8d20)...[62bc40f](https://github.com/solimike/rppal-mcp23s17/commit/62bc40f63480bf8a78ac88cee8f467d3cf75f840)
