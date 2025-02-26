@@ -14,7 +14,8 @@ homepage = "https://docs.rs/rppal-mcp23s17/"
 repository = "https://github.com/solimike/rppal-mcp23s17/"
 keywords = ["MCP23S17", "Raspberry", "Raspberry_Pi", "PiFaceDigital", "RPPAL"]
 categories = ["hardware-support", "embedded"]
-edition = "2021"
+edition = "2024"
+rust-version = "1.85"
 
 # When using the "mockspi" feature for dev builds the original resolver's desire
 # to merge features between release and test builds is inappropriate, so use the

@@ -91,7 +91,9 @@ impl MockSpi {
         frequency: u32,
         mode: rppal::spi::Mode,
     ) -> MockSpi {
-        println!("Mock SPI created:\n  SPI bus:{bus}\n  CS: {chip_select:?}\n  f: {frequency}\n  mode: {mode}");
+        println!(
+            "Mock SPI created:\n  SPI bus:{bus}\n  CS: {chip_select:?}\n  f: {frequency}\n  mode: {mode}"
+        );
         let mut mock_spi = MockSpi::default();
 
         // Set registers that don't have 0x00 at POR, which is actually only the IODIR
