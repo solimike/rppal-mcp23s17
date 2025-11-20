@@ -1,7 +1,7 @@
 //! Various flavours of "Pin" that the I/O Expander GPIO ports support.
 //!
 //! * [`InputPin`] - GPIO input that may either be high impedance or have an internal
-//!                  pull-up resistor connected.
+//!   pull-up resistor connected.
 //! * [`OutputPin`] - GPIO output that can be initialised to high or low [`Level`].
 //!
 //! # Acknowledgements

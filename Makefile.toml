@@ -64,6 +64,13 @@ args = ["cliff",
 		"--tag", "v${CARGO_MAKE_CRATE_VERSION}",
 		"--output", "CHANGELOG.md"]
 
+[tasks.semver_checks]
+workspace = false
+script = [
+	"cargo semver-checks --target ${TARGET}",
+]
+
+
 [tasks.prepare_commit]
 workspace = false
 dependencies = [
@@ -73,5 +80,6 @@ dependencies = [
 			"clippy",
 			"test_rpi",
 			"release_rpi",
+			"semver_checks",
 			"changelog",
 ]
