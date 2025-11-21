@@ -70,7 +70,6 @@ script = [
 	"cargo semver-checks --target ${TARGET}",
 ]
 
-
 [tasks.prepare_commit]
 workspace = false
 dependencies = [
