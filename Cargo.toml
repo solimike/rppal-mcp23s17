@@ -23,7 +23,7 @@ rust-version = "1.85"   # If bumping MSRV, update ci.yml to reflect new version 
 resolver = "2"
 
 [dependencies]
-bitflags = "2.6"
+bitflags = "2.11"
 log = "0.4.17"
 rppal = "0.22"
 thiserror = "2.0"
