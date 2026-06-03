@@ -24,7 +24,7 @@ resolver = "2"
 
 [dependencies]
 bitflags = "2.6"
-log = "0.4.29"
+log = "0.4.31"
 rppal = "0.22"
 thiserror = "2.0"
 
