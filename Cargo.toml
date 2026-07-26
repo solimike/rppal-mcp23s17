@@ -5,7 +5,7 @@ authors = ["Mike Walmsley"]
 description = """MCP23S17 driver
 
 An experimental driver for the MCP23S17 16 bit I/O expander chip
-addressed over the SPI bus on Raspbery Pi peripherals, such as the 
+addressed over the SPI bus on Raspberry Pi peripherals, such as the 
 PiFace Digital HAT. Requires RPPAL for the SPI interface.
 """
 license = "MIT"
